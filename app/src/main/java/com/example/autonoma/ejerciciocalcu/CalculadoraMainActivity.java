@@ -21,8 +21,8 @@ public class CalculadoraMainActivity extends AppCompatActivity {
         btnRestar = findViewById(R.id.btnRestar);
         btnSumar = findViewById(R.id.btnSumar);
         final TextView tvResultado = (TextView) findViewById(R.id.textViewResultado);
-
-            btnRestar.setOnClickListener(new View.OnClickListener() {
+    
+            btnRestar.setOnClickListener(  new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int aux1 = Integer.valueOf(etNumero1.getText().toString());
